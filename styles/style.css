@@ -1,7 +1,59 @@
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+/* header block */
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header__wrapper{
+    margin: 50px 150px 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-text{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 5px; 
+    font-weight: 500;  
+}
+.header__menu-left svg{
+    margin-bottom: -11px;
+}
+.header__menu-middle{
+    display: flex;
+    gap: 40px;
+}
+.header__menu-right{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
 .icon-main-logo{
     width: 35px;
     height: 36px;
+}
+.icon-facebook {
+    width: 32.25px;
+    height: 32.25px;
+    background-color: #F53838;
+    border-radius: 50%;
+    border: 1px solid white;
 }
