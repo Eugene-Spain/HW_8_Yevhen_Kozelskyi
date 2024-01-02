@@ -1,93 +1,116 @@
-ul{
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
-    
+
 }
-body{
+
+body {
     font-family: 'Rubik', sans-serif;
 }
+
 /* header block */
 .header {
     max-width: 1440px;
     margin: 0 auto;
 }
-.header__wrapper{
+
+.header__wrapper {
     margin: 50px 150px 93px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0;
 }
-.logo-text{
+
+.logo-text {
     display: flex;
     font-size: 20px;
-    margin-left: 5px; 
-    font-weight: 500;  
+    margin-left: 5px;
+    font-weight: 500;
 }
-.header__menu-left a{
+
+.header__menu-left a {
     display: flex;
 }
 
-.header__menu-left svg{
+.header__menu-left svg {
     position: relative;
     top: 11px;
 }
-.header__menu-middle{
+
+.header__menu-middle {
     display: flex;
     gap: 40px;
-   
+
 }
-.header__menu-middle li a{
+
+.header__menu-middle li a {
     font-size: 16px;
     color: #4F5665;
     display: flex;
 }
 
 
-.header__menu-right{
+.header__menu-right {
     display: flex;
     justify-self: center;
     align-items: center;
 }
-.header__menu-right li{
+
+.header__menu-right li {
     display: inline-block;
     vertical-align: middle;
-   
+
 }
-.header__menu-right li a{
+
+.header__menu-right__in {
     font-size: 16px;
     font-weight: 500;
-    
+
 }
-.header__menu-right li button{
+
+.header__menu-right__up button {
     margin-left: 30px;
-    border: 1px solid #F53838 ;
+    border: 1px solid #F53838;
     border-radius: 50px;
     background-color: #fff;
     padding: 13px 45px;
-
+    font-size: 16px;
 }
-.header__menu-right li button a{
+
+.header__menu-right__up button:hover {
+    cursor: pointer;
+}
+
+.header__menu-right__up p {
     color: #F53838;
-   
-} 
+    margin: 0;
+    font-weight: 500;
+}
+
+/* end header block */
+
+/* hero block */
 
 
 
+/* end hero block */
 
 
 
-
-.icon-main-logo{
+.icon-main-logo {
     width: 35px;
     height: 36px;
 }
-.footer{
+
+.footer {
     background-color: #F8F8F8;
 }
-.footer__icon-facebook{
+
+.footer__icon-facebook {
     width: 20px;
     height: 20px;
     background-color: #F53838;
@@ -95,8 +118,9 @@ body{
     background-size: contain;
     border-radius: 50%;
     margin-top: 20px;
-    
+
 }
+
 .icon-facebook {
     width: 33px;
     height: 33px;
