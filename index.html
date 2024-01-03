@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/normilize.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&family=Rubik:wght@400;500&display=swap"
+        rel="stylesheet">
     <title>LaslesVPN</title>
 </head>
 
@@ -18,29 +21,46 @@
         <nav>
             <ul class="header__wrapper">
                 <li class="header__menu-left">
-                    <a href="/"><svg class="icon icon-main-logo"><use xlink:href="assets/svg/svg-sprites.svg#icon-main-logo"></use></svg>
-                    <p class="logo-text">Lasles<strong>VPN</strong></p>
+                    <a href="/"><svg class="icon icon-main-logo">
+                            <use xlink:href="assets/svg/svg-sprites.svg#icon-main-logo"></use>
+                        </svg>
+                        <p class="logo-text">Lasles<strong>VPN</strong></p>
                     </a>
-                    </li>
+                </li>
                 <ul class="header__menu-middle">
-                    <li><a href="/"><p>About</p></a></li>
-                    <li><a href="/"><p>Features</p></a></li>
-                    <li><a href="/"><p>Pricing</p></a></li>
-                    <li><a href="/"><p>Testimonials</p></a></li>
-                    <li><a href="/"><p>Help</p></a></li>
-                </ul> 
-                <ul class="header__menu-right">   
-                    <li class="header__menu-right__in"><a href="/"><p>Sign In</p></a></li>
-                    <li class="header__menu-right__up"><button><a href="/"><p>Sign Up</p></a></button></li>
+                    <li><a href="/">
+                            <p>About</p>
+                        </a></li>
+                    <li><a href="/">
+                            <p>Features</p>
+                        </a></li>
+                    <li><a href="/">
+                            <p>Pricing</p>
+                        </a></li>
+                    <li><a href="/">
+                            <p>Testimonials</p>
+                        </a></li>
+                    <li><a href="/">
+                            <p>Help</p>
+                        </a></li>
+                </ul>
+                <ul class="header__menu-right">
+                    <li class="header__menu-right__in"><a href="/">
+                            <p>Sign In</p>
+                        </a></li>
+                    <li class="header__menu-right__up"><button><a href="/">
+                                <p>Sign Up</p>
+                            </a></button></li>
                 </ul>
             </ul>
         </nav>
     </header>
     <section class="hero">
-        <figure>
+        <figure class="hero__wrapper">
             <figcaption>
-                <h1>Want anything to be easy with LaslesVPN.</h1>
-                <p>Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features
+                <h1>Want anything to be easy with <strong>LaslesVPN.</strong></h1>
+                <p>Provide a network for all your needs with ease and fun using <strong>LaslesVPN</strong> discover
+                    interesting features
                     from us.</p>
                 <button>Get started</button>
             </figcaption>
@@ -49,29 +69,38 @@
         </figure>
     </section>
     <section class="quick-info">
-        <ul>
-            <li>
-                <svg class="icon icon-user">
-                    <use xlink:href="assets/svg/svg-sprites.svg#icon-user"></use>
-                </svg>
-                <h3>90+</h3>
-                <p>Users</p>
-            </li>
-            <li>
-                <svg class="icon icon-location">
-                    <use xlink:href="assets/svg/svg-sprites.svg#icon-location"></use>
-                </svg>
-                <h3>30+</h3>
-                <p>Locations</p>
-            </li>
-            <li>
-                <svg class="icon icon-server">
-                    <use xlink:href="assets/svg/svg-sprites.svg#icon-server"></use>
-                </svg>
-                <h3>50+</h3>
-                <p>Servers</p>
-            </li>
-        </ul>
+        <div class="quick-info__wrapper">
+            <ul>
+                <li class="quick-info__wrapper__section">
+                    <svg class="icon icon-user">
+                        <use xlink:href="assets/svg/svg-sprites.svg#icon-user"></use>
+                    </svg>
+                    <span>
+                    <h3>90+</h3>
+                    <p>Users</p>
+                    </span>
+                </li>
+                <li class="quick-info__wrapper__section">
+                    <svg class="icon icon-location">
+                        <use xlink:href="assets/svg/svg-sprites.svg#icon-location"></use>
+                    </svg>
+                    <span>
+                    <h3>30+</h3>
+                    <p>Locations</p>
+                    </span>
+                </li>
+                <li class="quick-info__wrapper__section quick-info__wrapper__section-3">
+                    <svg class="icon icon-server">
+                        <use xlink:href="assets/svg/svg-sprites.svg#icon-server"></use>
+                    </svg>
+                    <span>
+                    <h3>50+</h3>
+                    <p>Servers</p>
+                    </span>
+                </li>
+            </ul>
+        </div>    
+            <div class="quick-info__background"></div>
     </section>
     <section class="features">
         <figure>
@@ -228,15 +257,15 @@
                     <li>LaslesVPN is a private virtual network that has unique features and has high security.</li>
                     <li>
                         <ul>
-                        <li class="footer__icon-facebook"><svg class="icon icon-facebook">
-                            <use xlink:href="assets/svg/svg-sprites.svg#icon-facebook"></use>
-                        </svg></li>
-                        <li class="footer__icon-twitter"><svg class="icon icon-twitter">
-                            <use xlink:href="assets/svg/svg-sprites.svg#icon-twitter"></use>
-                        </svg></li>
-                        <li class="footer__icon-instagram"><svg class="icon icon-instagram">
-                            <use xlink:href="assets/svg/svg-sprites.svg#icon-instagram"></use>
-                        </svg></li>
+                            <li class="footer__icon-facebook"><svg class="icon icon-facebook">
+                                    <use xlink:href="assets/svg/svg-sprites.svg#icon-facebook"></use>
+                                </svg></li>
+                            <li class="footer__icon-twitter"><svg class="icon icon-twitter">
+                                    <use xlink:href="assets/svg/svg-sprites.svg#icon-twitter"></use>
+                                </svg></li>
+                            <li class="footer__icon-instagram"><svg class="icon icon-instagram">
+                                    <use xlink:href="assets/svg/svg-sprites.svg#icon-instagram"></use>
+                                </svg></li>
                         </ul>
                     </li>
                     <li>
