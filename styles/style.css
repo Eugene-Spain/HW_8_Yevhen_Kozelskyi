@@ -202,7 +202,7 @@ body {
     z-index: 0;
     bottom: 220px;
     left: 185px;
-    margin-bottom: -155px;
+    margin-bottom: -162px;
 }
 
 /* end quick info */
@@ -216,9 +216,38 @@ body {
 
 .features__wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 170px;
-    align-items: center;
+    align-items: center     ;
+}
+.features__wrapper figcaption{
+    max-width: 430px;
+}
+.features__wrapper figcaption h2{
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 500;
+    margin: 40px 0 20px 0;
+}
+.features__wrapper figcaption p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-bottom: 20px;
+}
+
+.features__wrapper figcaption ul li{
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+    list-style-image: url(../assets/svg/check-circle.svg);
+    vertical-align: middle;
+}
+.features__wrapper figcaption ul li p{
+    position: relative;
+    bottom: 7px;
+    padding-left: 2px;
+    margin-bottom: 15px;
 }
 
 /* end features block */
