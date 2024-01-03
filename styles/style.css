@@ -199,12 +199,29 @@ body {
     opacity: 0.09;
     filter: blur(57px);
     position: relative;
-    z-index: 5;
+    z-index: 0;
     bottom: 220px;
     left: 185px;
+    margin-bottom: -155px;
 }
 
 /* end quick info */
+
+/* features block */
+
+.features{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.features__wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    align-items: center;
+}
+
+/* end features block */
 .icon-main-logo {
     width: 35px;
     height: 36px;
