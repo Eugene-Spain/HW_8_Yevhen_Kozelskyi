@@ -569,6 +569,18 @@ body {
     margin: 0;
 }
 
+.reviews__background-item{
+    width: 318px;
+    height: 300px;
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    opacity: 0.06;
+    background: #0D1025;
+    filter: blur(57px);
+    left: 175px;
+    top: 4470px;
+}
 /* end reviews block */
 
 /* switchers block */
@@ -693,6 +705,8 @@ body {
 }
 
 /* end subscribe block */
+
+/* footer block */
 .icon-main-logo {
     width: 35px;
     height: 36px;
@@ -720,3 +734,5 @@ body {
     right: 5px;
     bottom: 5px;
 }
+
+/* end footer block */
