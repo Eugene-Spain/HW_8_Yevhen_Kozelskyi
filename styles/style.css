@@ -424,7 +424,7 @@ body {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        
+        overflow: hidden
     }
     .reviews__wrapper h2{
         font-size: 35px;
@@ -442,17 +442,16 @@ body {
         max-width: 555px;
     }
     .reviews__wrapper__list{
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
+        display: -webkit-box;
         gap: 50px;
+        margin-left: 100px;
     }
     .reviews__wrapper__list__item{
         display: flex;
         flex-direction: column;
         max-width: 400px;
         height: 230px;
-        border: 2px solid #4F5665;
+        border: 2px solid #DDDDDD;
         border-radius: 10px;
         
     }
@@ -511,6 +510,53 @@ body {
         margin: 0;
     }
 /* end reviews block */
+
+/* switchers block */
+
+.switchers{
+    width: 1440px;
+    margin: 0 auto;    
+}
+.switchers__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 100px;
+}
+.switchers__oval{
+    width: 45px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #F53838;
+    display: inline-block;
+}
+.switchers__circle{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #DDE0E4;
+    border-radius: 50%;
+}
+.switchers__item{
+    display: inline-flex;
+    gap: 15px;
+}
+.material-symbols-outlined{
+    padding: 15px;
+}
+.switchers__wrapper__arrow-back{
+    color: #F53838;
+    border: 2px solid #F53838;
+    border-radius: 50%;
+}
+.switchers__wrapper__arrow-fwd{
+    color: #fff;
+    border: 2px solid transparent;
+    background-color: #F53838;
+    border-radius: 50%;
+    margin: 0 50px 0 20px;
+}
+/* end switchers block */
 .icon-main-logo {
     width: 35px;
     height: 36px;
