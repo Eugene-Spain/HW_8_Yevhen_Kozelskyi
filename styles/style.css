@@ -411,6 +411,106 @@ body {
 }
 
 /* end global network block */
+
+/* reviews block */
+
+    .reviews{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .reviews__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+    .reviews__wrapper h2{
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: 500;
+        max-width: 485px;
+        text-align: center;
+        color: #0B132A;
+    }
+    .reviews__wrapper__paragraph{
+        color: #4F5665;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        max-width: 555px;
+    }
+    .reviews__wrapper__list{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .reviews__wrapper__list__item{
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        height: 230px;
+        border: 2px solid #4F5665;
+        border-radius: 10px;
+        
+    }
+    .reviews__wrapper__list__item:first-child{
+        border: 2px solid #F53838;
+    }
+    .reviews__wrapper__list__item-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 30px 0 30px;
+    }
+    .reviews__wrapper__list__item-top h4{
+        margin: 0;
+        color: #0D1025;
+        font-weight: 500;
+    }
+    .reviews__wrapper__list__item-top img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid transparent;
+    }
+    .reviews__wrapper__list__item-top__avatar-and-info{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .reviews__wrapper__list__item-top__personal-info{
+        padding:6.5px 0 5px 30px;
+    }
+    .reviews__wrapper__list__item-top__personal-info p{
+        color: #4F5665;
+        font-size: 14px;
+        margin: 0;
+    }
+        
+    .reviews__wrapper__list__item-top__mark{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .reviews__wrapper__list__item-top__mark img{
+        width: 16px;
+        height: 16px;
+        margin-left: 10px;
+    }
+    .reviews__wrapper__list__item-feedback-text{
+        color: #0B132A;
+        font-size: 16px;
+        line-height: 30px;
+        margin: 20px 30px 30px 30px;
+    }
+    .reviews__wrapper__list__item-feedback-text p{
+        margin: 0;
+    }
+/* end reviews block */
 .icon-main-logo {
     width: 35px;
     height: 36px;
