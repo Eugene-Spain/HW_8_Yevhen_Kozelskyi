@@ -830,7 +830,7 @@ body {
 .footer__wrapper__list-2 ul{
     padding: 0;
 }
-.footer__wrapper__list-2 p{
+.footer__wrapper__list-2 p a{
     color: #4F5665;
     line-height: 30px;
     margin-right: 126px;
@@ -839,7 +839,7 @@ body {
 .footer__wrapper__list-3 ul{
     padding: 0;
 }
-.footer__wrapper__list-3 p{
+.footer__wrapper__list-3 p a{
     color: #4F5665;
     line-height: 30px;
     margin-right: 158px;
@@ -847,7 +847,7 @@ body {
 .footer__wrapper__list-4 ul{
     padding: 0;
 }
-.footer__wrapper__list-4 p{
+.footer__wrapper__list-4 p a{
     color: #4F5665;
     line-height: 30px;
 }
